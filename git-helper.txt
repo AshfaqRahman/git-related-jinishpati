@@ -1,0 +1,13 @@
+showing all branch log--
+  git log --all --oneline
+  
+  
+showing current branch log 
+git log --oneline
+
+
+rollback to any previous commit (no new commit will be executed, this for the time when we just need to go to a previous version and it wont
+                                 matter if the commits after the given "commit_id" is deleted)
+git reset <commit_id>
+git push --force
+

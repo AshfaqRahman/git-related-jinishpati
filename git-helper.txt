@@ -1,3 +1,8 @@
+first of all HEAD is a pointer, out working things are always in a pointer named HEAD.
+we can change HEAD position using checkout
+
+
+
 showing all branch log--
   git log --all --oneline
   
@@ -11,3 +16,12 @@ rollback to any previous commit (no new commit will be executed, this for the ti
 git reset <commit_id>
 git push --force
 
+
+now if we want to go to a previous version but we don't want to delete the commits that are committed after the given "commit_id" then
+we should use revoke
+a good tutorial link
+https://www.freecodecamp.org/news/git-revert-commit-how-to-undo-the-last-commit/
+https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
+
+git revert --no-commit <commit_id> -m 1(m is needed if there is a merge commit in between head and 
+git --continue

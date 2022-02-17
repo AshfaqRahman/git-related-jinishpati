@@ -39,6 +39,6 @@ git merge origin/<branch_name> => merge current HEAD position with the given <br
 ----------------------------------------------------------
 
 removing a file
-https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-a-git-repository/2047477
+[a link](https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-a-git-repository/2047477)
 ----------------------------------------------------------
 

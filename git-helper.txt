@@ -38,6 +38,7 @@ git pull  => pulls all the remote branch updated version to local origin/<branch
 git merge origin/<branch_name> => merge current HEAD position with the given <branch_name>
 ----------------------------------------------------------
 
-
-
+removing a file
+https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-a-git-repository/2047477
+----------------------------------------------------------
 
